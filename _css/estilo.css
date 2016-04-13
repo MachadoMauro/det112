@@ -16,6 +16,7 @@ p{
 
 body{
 		background-color: #dddddd;
+
 		/*background-image: url("fundo.jpg*/
 		/*background-color: hsl(165,81%,93%);*/
 }
@@ -96,12 +97,12 @@ div#interface {
 div#interface img#icone{
 	position: absolute;
 	left: 800px;
-	top:135px;
+	top:125px;
 }
 
 header#cabecalho{
 	border-bottom: 1px #606060 solid;
-	height: 260px;
+	height: 240px;
 	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 170px;
 }
 
@@ -147,8 +148,103 @@ footer#rodape p{
 
 table#tabelaSpec{
 	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 table#tabelaSpec td{
 	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
 }
+
+table#tabelaSpec td.ce{
+	color: #ffffff;
+	background-color: #000000;
+	text-align:right;
+	vertical-align:top;
+	font-weight: bold;
+
+}
+
+table#tabelaSpec td.cd{
+	background-color: #cecece;
+	text-align: left;
+	vertical-align: middle;
+}
+
+table#tabelaSpec caption{
+	color:888888;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+table#tabelaSpec caption span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+article#noticia-principal h2{
+	font-size: 16pt;
+	color: #000000;
+	background-color: #dddddd;
+	padding: 5px, 0px, 5px, 10px;S
+	margin:10px, 0px, 10px, 0px;
+}
+
+header#cabecalho-artigo h1{
+	font-family: 'Fontelogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+header#cabecalho-artigo h2{
+	font-size: 14pt;
+	color: #000000;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+	font-size: 12pt;
+	color: #606060; 
+}
+
+header#cabecalho-artigo h3.direita{
+	text-align: right;
+}
+
+aside#lateral{
+	display: block;
+	width:370px;
+	float: right;
+	background-color: #dddddd;
+	padding: 10px;
+	margin-top:10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#lateral h1{
+	font-family: 'Fontelogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+
+}
+
+aside#lateral h2{
+background-color: #606060;
+font-size: 12pt;
+color: #ffffff;
+padding:5px;
+
+}
+
